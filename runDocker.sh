@@ -1,6 +1,6 @@
 #!/bin/bash
 
-if [ $1 == 'build' ]
+if [ "$1" == 'build' ]
 then
     docker build  --no-cache --tag gazebodocker .
     cd drone_racing_ws
