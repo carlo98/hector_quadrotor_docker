@@ -21,6 +21,7 @@ Inside of docker:
 ```
 cd /root/drone_racing_ws
 catkin_make
+source /root/drone_racing_ws/devel/setup.bash
 ```
 
 In order to test the installation, use tmux to launch multiple instrunctions, in docker:
