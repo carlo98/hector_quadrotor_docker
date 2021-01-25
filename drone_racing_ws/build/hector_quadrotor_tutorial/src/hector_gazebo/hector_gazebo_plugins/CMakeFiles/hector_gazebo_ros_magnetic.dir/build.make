@@ -123,7 +123,6 @@ hector_gazebo_ros_magnetic_EXTERNAL_OBJECTS =
 /root/drone_racing_ws/devel/lib/libhector_gazebo_ros_magnetic.so: /usr/lib/x86_64-linux-gnu/libpthread.so
 /root/drone_racing_ws/devel/lib/libhector_gazebo_ros_magnetic.so: /usr/lib/x86_64-linux-gnu/libprotobuf.so
 /root/drone_racing_ws/devel/lib/libhector_gazebo_ros_magnetic.so: /usr/lib/x86_64-linux-gnu/libsdformat.so
-/root/drone_racing_ws/devel/lib/libhector_gazebo_ros_magnetic.so: /usr/lib/x86_64-linux-gnu/libOgreMain.so
 /root/drone_racing_ws/devel/lib/libhector_gazebo_ros_magnetic.so: /usr/lib/x86_64-linux-gnu/libboost_thread.so
 /root/drone_racing_ws/devel/lib/libhector_gazebo_ros_magnetic.so: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
 /root/drone_racing_ws/devel/lib/libhector_gazebo_ros_magnetic.so: /usr/lib/x86_64-linux-gnu/libboost_system.so
@@ -188,7 +187,6 @@ hector_gazebo_ros_magnetic_EXTERNAL_OBJECTS =
 /root/drone_racing_ws/devel/lib/libhector_gazebo_ros_magnetic.so: /usr/lib/x86_64-linux-gnu/libpthread.so
 /root/drone_racing_ws/devel/lib/libhector_gazebo_ros_magnetic.so: /usr/lib/x86_64-linux-gnu/libprotobuf.so
 /root/drone_racing_ws/devel/lib/libhector_gazebo_ros_magnetic.so: /usr/lib/x86_64-linux-gnu/libsdformat.so
-/root/drone_racing_ws/devel/lib/libhector_gazebo_ros_magnetic.so: /usr/lib/x86_64-linux-gnu/libOgreMain.so
 /root/drone_racing_ws/devel/lib/libhector_gazebo_ros_magnetic.so: /usr/lib/x86_64-linux-gnu/libOgreTerrain.so
 /root/drone_racing_ws/devel/lib/libhector_gazebo_ros_magnetic.so: /usr/lib/x86_64-linux-gnu/libOgrePaging.so
 /root/drone_racing_ws/devel/lib/libhector_gazebo_ros_magnetic.so: /opt/ros/melodic/lib/libtf.so
@@ -206,6 +204,20 @@ hector_gazebo_ros_magnetic_EXTERNAL_OBJECTS =
 /root/drone_racing_ws/devel/lib/libhector_gazebo_ros_magnetic.so: /opt/ros/melodic/lib/libroscpp_serialization.so
 /root/drone_racing_ws/devel/lib/libhector_gazebo_ros_magnetic.so: /opt/ros/melodic/lib/librostime.so
 /root/drone_racing_ws/devel/lib/libhector_gazebo_ros_magnetic.so: /opt/ros/melodic/lib/libcpp_common.so
+/root/drone_racing_ws/devel/lib/libhector_gazebo_ros_magnetic.so: /usr/lib/x86_64-linux-gnu/libgazebo.so
+/root/drone_racing_ws/devel/lib/libhector_gazebo_ros_magnetic.so: /usr/lib/x86_64-linux-gnu/libgazebo_client.so
+/root/drone_racing_ws/devel/lib/libhector_gazebo_ros_magnetic.so: /usr/lib/x86_64-linux-gnu/libgazebo_gui.so
+/root/drone_racing_ws/devel/lib/libhector_gazebo_ros_magnetic.so: /usr/lib/x86_64-linux-gnu/libgazebo_sensors.so
+/root/drone_racing_ws/devel/lib/libhector_gazebo_ros_magnetic.so: /usr/lib/x86_64-linux-gnu/libgazebo_rendering.so
+/root/drone_racing_ws/devel/lib/libhector_gazebo_ros_magnetic.so: /usr/lib/x86_64-linux-gnu/libgazebo_physics.so
+/root/drone_racing_ws/devel/lib/libhector_gazebo_ros_magnetic.so: /usr/lib/x86_64-linux-gnu/libgazebo_ode.so
+/root/drone_racing_ws/devel/lib/libhector_gazebo_ros_magnetic.so: /usr/lib/x86_64-linux-gnu/libgazebo_transport.so
+/root/drone_racing_ws/devel/lib/libhector_gazebo_ros_magnetic.so: /usr/lib/x86_64-linux-gnu/libgazebo_msgs.so
+/root/drone_racing_ws/devel/lib/libhector_gazebo_ros_magnetic.so: /usr/lib/x86_64-linux-gnu/libgazebo_util.so
+/root/drone_racing_ws/devel/lib/libhector_gazebo_ros_magnetic.so: /usr/lib/x86_64-linux-gnu/libgazebo_common.so
+/root/drone_racing_ws/devel/lib/libhector_gazebo_ros_magnetic.so: /usr/lib/x86_64-linux-gnu/libgazebo_gimpact.so
+/root/drone_racing_ws/devel/lib/libhector_gazebo_ros_magnetic.so: /usr/lib/x86_64-linux-gnu/libgazebo_opcode.so
+/root/drone_racing_ws/devel/lib/libhector_gazebo_ros_magnetic.so: /usr/lib/x86_64-linux-gnu/libgazebo_opende_ou.so
 /root/drone_racing_ws/devel/lib/libhector_gazebo_ros_magnetic.so: /usr/lib/x86_64-linux-gnu/libboost_thread.so
 /root/drone_racing_ws/devel/lib/libhector_gazebo_ros_magnetic.so: /usr/lib/x86_64-linux-gnu/libboost_signals.so
 /root/drone_racing_ws/devel/lib/libhector_gazebo_ros_magnetic.so: /usr/lib/x86_64-linux-gnu/libboost_system.so
@@ -219,7 +231,6 @@ hector_gazebo_ros_magnetic_EXTERNAL_OBJECTS =
 /root/drone_racing_ws/devel/lib/libhector_gazebo_ros_magnetic.so: /usr/lib/x86_64-linux-gnu/libpthread.so
 /root/drone_racing_ws/devel/lib/libhector_gazebo_ros_magnetic.so: /usr/lib/x86_64-linux-gnu/libprotobuf.so
 /root/drone_racing_ws/devel/lib/libhector_gazebo_ros_magnetic.so: /usr/lib/x86_64-linux-gnu/libsdformat.so
-/root/drone_racing_ws/devel/lib/libhector_gazebo_ros_magnetic.so: /usr/lib/x86_64-linux-gnu/libOgreMain.so
 /root/drone_racing_ws/devel/lib/libhector_gazebo_ros_magnetic.so: /usr/lib/x86_64-linux-gnu/libOgreTerrain.so
 /root/drone_racing_ws/devel/lib/libhector_gazebo_ros_magnetic.so: /usr/lib/x86_64-linux-gnu/libOgrePaging.so
 /root/drone_racing_ws/devel/lib/libhector_gazebo_ros_magnetic.so: /opt/ros/melodic/lib/libtf.so

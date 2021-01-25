@@ -129,7 +129,6 @@ diffdrive_plugin_multi_wheel_EXTERNAL_OBJECTS =
 /root/drone_racing_ws/devel/lib/libdiffdrive_plugin_multi_wheel.so: /usr/lib/x86_64-linux-gnu/libpthread.so
 /root/drone_racing_ws/devel/lib/libdiffdrive_plugin_multi_wheel.so: /usr/lib/x86_64-linux-gnu/libprotobuf.so
 /root/drone_racing_ws/devel/lib/libdiffdrive_plugin_multi_wheel.so: /usr/lib/x86_64-linux-gnu/libsdformat.so
-/root/drone_racing_ws/devel/lib/libdiffdrive_plugin_multi_wheel.so: /usr/lib/x86_64-linux-gnu/libOgreMain.so
 /root/drone_racing_ws/devel/lib/libdiffdrive_plugin_multi_wheel.so: /usr/lib/x86_64-linux-gnu/libboost_thread.so
 /root/drone_racing_ws/devel/lib/libdiffdrive_plugin_multi_wheel.so: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
 /root/drone_racing_ws/devel/lib/libdiffdrive_plugin_multi_wheel.so: /usr/lib/x86_64-linux-gnu/libboost_system.so
@@ -192,7 +191,6 @@ diffdrive_plugin_multi_wheel_EXTERNAL_OBJECTS =
 /root/drone_racing_ws/devel/lib/libdiffdrive_plugin_multi_wheel.so: /usr/lib/x86_64-linux-gnu/libboost_iostreams.so
 /root/drone_racing_ws/devel/lib/libdiffdrive_plugin_multi_wheel.so: /usr/lib/x86_64-linux-gnu/libprotobuf.so
 /root/drone_racing_ws/devel/lib/libdiffdrive_plugin_multi_wheel.so: /usr/lib/x86_64-linux-gnu/libsdformat.so
-/root/drone_racing_ws/devel/lib/libdiffdrive_plugin_multi_wheel.so: /usr/lib/x86_64-linux-gnu/libOgreMain.so
 /root/drone_racing_ws/devel/lib/libdiffdrive_plugin_multi_wheel.so: /usr/lib/x86_64-linux-gnu/libOgreTerrain.so
 /root/drone_racing_ws/devel/lib/libdiffdrive_plugin_multi_wheel.so: /usr/lib/x86_64-linux-gnu/libOgrePaging.so
 /root/drone_racing_ws/devel/lib/libdiffdrive_plugin_multi_wheel.so: /opt/ros/melodic/lib/libtf.so

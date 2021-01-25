@@ -8,7 +8,7 @@ Documentation for hector quadrotor available [here](http://wiki.ros.org/hector_q
 
 2) Clone repository:
 ```
-git clone --recurse-submodules https://github.com/carlo98/hector_quadrotor_docker.git
+git clone https://github.com/carlo98/hector_quadrotor_docker.git
 ```
 3) Docker build (it will take some time):
 ```

@@ -8,6 +8,10 @@
 
 # modified environment variables
 export CMAKE_PREFIX_PATH="/root/drone_racing_ws/devel:$CMAKE_PREFIX_PATH"
+export LD_LIBRARY_PATH="/root/drone_racing_ws/devel/lib:$LD_LIBRARY_PATH"
+export PATH='/opt/ros/melodic/bin:/root/anaconda3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+export PKG_CONFIG_PATH="/root/drone_racing_ws/devel/lib/pkgconfig:$PKG_CONFIG_PATH"
 export PWD='/root/drone_racing_ws/build'
+export PYTHONPATH="/root/drone_racing_ws/devel/lib/python2.7/dist-packages:$PYTHONPATH"
 export ROSLISP_PACKAGE_DIRECTORIES='/root/drone_racing_ws/devel/share/common-lisp'
 export ROS_PACKAGE_PATH="/root/drone_racing_ws/src:$ROS_PACKAGE_PATH"
