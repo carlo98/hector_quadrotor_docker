@@ -1,0 +1,7 @@
+drone_racing/hector_localization/hector_pose_estimation_core
+/root/drone_racing_ws/devel/.private/hector_pose_estimation_core/cmake.lock /root/drone_racing_ws/devel/./cmake.lock
+/root/drone_racing_ws/devel/.private/hector_pose_estimation_core/lib/libhector_pose_estimation.so /root/drone_racing_ws/devel/lib/libhector_pose_estimation.so
+/root/drone_racing_ws/devel/.private/hector_pose_estimation_core/lib/pkgconfig/hector_pose_estimation_core.pc /root/drone_racing_ws/devel/lib/pkgconfig/hector_pose_estimation_core.pc
+/root/drone_racing_ws/devel/.private/hector_pose_estimation_core/include/hector_pose_estimation/matrix_config.h /root/drone_racing_ws/devel/include/hector_pose_estimation/matrix_config.h
+/root/drone_racing_ws/devel/.private/hector_pose_estimation_core/share/hector_pose_estimation_core/cmake/hector_pose_estimation_coreConfig-version.cmake /root/drone_racing_ws/devel/share/hector_pose_estimation_core/cmake/hector_pose_estimation_coreConfig-version.cmake
+/root/drone_racing_ws/devel/.private/hector_pose_estimation_core/share/hector_pose_estimation_core/cmake/hector_pose_estimation_coreConfig.cmake /root/drone_racing_ws/devel/share/hector_pose_estimation_core/cmake/hector_pose_estimation_coreConfig.cmake

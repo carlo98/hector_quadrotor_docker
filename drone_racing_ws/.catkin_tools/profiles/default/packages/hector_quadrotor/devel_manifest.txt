@@ -1,0 +1,2 @@
+drone_racing/hector_quadrotor/hector_quadrotor
+/root/drone_racing_ws/devel/.private/hector_quadrotor/cmake.lock /root/drone_racing_ws/devel/./cmake.lock
