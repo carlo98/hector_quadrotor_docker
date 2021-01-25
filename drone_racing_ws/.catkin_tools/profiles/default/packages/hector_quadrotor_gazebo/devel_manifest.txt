@@ -1,5 +1,0 @@
-drone_racing/hector_quadrotor/hector_quadrotor_gazebo
-/root/drone_racing_ws/devel/.private/hector_quadrotor_gazebo/cmake.lock /root/drone_racing_ws/devel/./cmake.lock
-/root/drone_racing_ws/devel/.private/hector_quadrotor_gazebo/lib/pkgconfig/hector_quadrotor_gazebo.pc /root/drone_racing_ws/devel/lib/pkgconfig/hector_quadrotor_gazebo.pc
-/root/drone_racing_ws/devel/.private/hector_quadrotor_gazebo/share/hector_quadrotor_gazebo/cmake/hector_quadrotor_gazeboConfig-version.cmake /root/drone_racing_ws/devel/share/hector_quadrotor_gazebo/cmake/hector_quadrotor_gazeboConfig-version.cmake
-/root/drone_racing_ws/devel/.private/hector_quadrotor_gazebo/share/hector_quadrotor_gazebo/cmake/hector_quadrotor_gazeboConfig.cmake /root/drone_racing_ws/devel/share/hector_quadrotor_gazebo/cmake/hector_quadrotor_gazeboConfig.cmake
