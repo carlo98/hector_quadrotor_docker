@@ -43,3 +43,8 @@ In order to start the docker
 ```
 sudo ./runDocker.sh
 ```
+
+## Future works
+
+- RL obstacle avoidance in indoor environment
+- Monocamera slam
