@@ -1,0 +1,9 @@
+drone_racing/hector_quadrotor/hector_quadrotor_gazebo_plugins
+/root/drone_racing_ws/devel/.private/hector_quadrotor_gazebo_plugins/cmake.lock /root/drone_racing_ws/devel/./cmake.lock
+/root/drone_racing_ws/devel/.private/hector_quadrotor_gazebo_plugins/lib/libhector_gazebo_quadrotor_simple_controller.so /root/drone_racing_ws/devel/lib/libhector_gazebo_quadrotor_simple_controller.so
+/root/drone_racing_ws/devel/.private/hector_quadrotor_gazebo_plugins/lib/libhector_gazebo_ros_baro.so /root/drone_racing_ws/devel/lib/libhector_gazebo_ros_baro.so
+/root/drone_racing_ws/devel/.private/hector_quadrotor_gazebo_plugins/lib/libhector_gazebo_quadrotor_aerodynamics.so /root/drone_racing_ws/devel/lib/libhector_gazebo_quadrotor_aerodynamics.so
+/root/drone_racing_ws/devel/.private/hector_quadrotor_gazebo_plugins/lib/libhector_gazebo_quadrotor_propulsion.so /root/drone_racing_ws/devel/lib/libhector_gazebo_quadrotor_propulsion.so
+/root/drone_racing_ws/devel/.private/hector_quadrotor_gazebo_plugins/lib/pkgconfig/hector_quadrotor_gazebo_plugins.pc /root/drone_racing_ws/devel/lib/pkgconfig/hector_quadrotor_gazebo_plugins.pc
+/root/drone_racing_ws/devel/.private/hector_quadrotor_gazebo_plugins/share/hector_quadrotor_gazebo_plugins/cmake/hector_quadrotor_gazebo_pluginsConfig.cmake /root/drone_racing_ws/devel/share/hector_quadrotor_gazebo_plugins/cmake/hector_quadrotor_gazebo_pluginsConfig.cmake
+/root/drone_racing_ws/devel/.private/hector_quadrotor_gazebo_plugins/share/hector_quadrotor_gazebo_plugins/cmake/hector_quadrotor_gazebo_pluginsConfig-version.cmake /root/drone_racing_ws/devel/share/hector_quadrotor_gazebo_plugins/cmake/hector_quadrotor_gazebo_pluginsConfig-version.cmake

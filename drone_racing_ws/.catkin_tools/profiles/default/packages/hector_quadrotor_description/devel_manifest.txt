@@ -1,0 +1,5 @@
+drone_racing/hector_quadrotor/hector_quadrotor_description
+/root/drone_racing_ws/devel/.private/hector_quadrotor_description/cmake.lock /root/drone_racing_ws/devel/./cmake.lock
+/root/drone_racing_ws/devel/.private/hector_quadrotor_description/lib/pkgconfig/hector_quadrotor_description.pc /root/drone_racing_ws/devel/lib/pkgconfig/hector_quadrotor_description.pc
+/root/drone_racing_ws/devel/.private/hector_quadrotor_description/share/hector_quadrotor_description/cmake/hector_quadrotor_descriptionConfig-version.cmake /root/drone_racing_ws/devel/share/hector_quadrotor_description/cmake/hector_quadrotor_descriptionConfig-version.cmake
+/root/drone_racing_ws/devel/.private/hector_quadrotor_description/share/hector_quadrotor_description/cmake/hector_quadrotor_descriptionConfig.cmake /root/drone_racing_ws/devel/share/hector_quadrotor_description/cmake/hector_quadrotor_descriptionConfig.cmake

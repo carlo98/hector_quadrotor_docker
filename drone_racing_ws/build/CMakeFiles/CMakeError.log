@@ -1,0 +1,166 @@
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /root/drone_racing_ws/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7409c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_7409c.dir/build.make CMakeFiles/cmTC_7409c.dir/build
+make[1]: Entering directory '/root/drone_racing_ws/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7409c.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_7409c.dir/CheckSymbolExists.c.o   -c /root/drone_racing_ws/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_7409c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7409c.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_7409c.dir/CheckSymbolExists.c.o  -o cmTC_7409c 
+CMakeFiles/cmTC_7409c.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x1b): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_7409c.dir/build.make:97: recipe for target 'cmTC_7409c' failed
+make[1]: *** [cmTC_7409c] Error 1
+make[1]: Leaving directory '/root/drone_racing_ws/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_7409c/fast' failed
+make: *** [cmTC_7409c/fast] Error 2
+
+File /root/drone_racing_ws/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /root/drone_racing_ws/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_8daeb/fast"
+/usr/bin/make -f CMakeFiles/cmTC_8daeb.dir/build.make CMakeFiles/cmTC_8daeb.dir/build
+make[1]: Entering directory '/root/drone_racing_ws/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8daeb.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_8daeb.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_8daeb
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8daeb.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_8daeb.dir/CheckFunctionExists.c.o  -o cmTC_8daeb -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_8daeb.dir/build.make:97: recipe for target 'cmTC_8daeb' failed
+make[1]: *** [cmTC_8daeb] Error 1
+make[1]: Leaving directory '/root/drone_racing_ws/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_8daeb/fast' failed
+make: *** [cmTC_8daeb/fast] Error 2
+
+
+Determining if the Q_WS_WIN exist failed with the following output:
+Change Dir: /root/drone_racing_ws/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_da949/fast"
+/usr/bin/make -f CMakeFiles/cmTC_da949.dir/build.make CMakeFiles/cmTC_da949.dir/build
+make[1]: Entering directory '/root/drone_racing_ws/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_da949.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++   -I/usr/include/qt4   -o CMakeFiles/cmTC_da949.dir/CheckSymbolExists.cxx.o -c /root/drone_racing_ws/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/root/drone_racing_ws/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/root/drone_racing_ws/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_WIN’ was not declared in this scope
+   return ((int*)(&Q_WS_WIN))[argc];
+                   ^~~~~~~~
+/root/drone_racing_ws/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: note: suggested alternative: ‘Q_WS_X11’
+   return ((int*)(&Q_WS_WIN))[argc];
+                   ^~~~~~~~
+                   Q_WS_X11
+CMakeFiles/cmTC_da949.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_da949.dir/CheckSymbolExists.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_da949.dir/CheckSymbolExists.cxx.o] Error 1
+make[1]: Leaving directory '/root/drone_racing_ws/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_da949/fast' failed
+make: *** [cmTC_da949/fast] Error 2
+
+File /root/drone_racing_ws/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_WIN
+  return ((int*)(&Q_WS_WIN))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the Q_WS_QWS exist failed with the following output:
+Change Dir: /root/drone_racing_ws/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_6cfeb/fast"
+/usr/bin/make -f CMakeFiles/cmTC_6cfeb.dir/build.make CMakeFiles/cmTC_6cfeb.dir/build
+make[1]: Entering directory '/root/drone_racing_ws/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_6cfeb.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++   -I/usr/include/qt4   -o CMakeFiles/cmTC_6cfeb.dir/CheckSymbolExists.cxx.o -c /root/drone_racing_ws/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/root/drone_racing_ws/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/root/drone_racing_ws/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_QWS’ was not declared in this scope
+   return ((int*)(&Q_WS_QWS))[argc];
+                   ^~~~~~~~
+/root/drone_racing_ws/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: note: suggested alternative: ‘Q_WS_X11’
+   return ((int*)(&Q_WS_QWS))[argc];
+                   ^~~~~~~~
+                   Q_WS_X11
+CMakeFiles/cmTC_6cfeb.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_6cfeb.dir/CheckSymbolExists.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_6cfeb.dir/CheckSymbolExists.cxx.o] Error 1
+make[1]: Leaving directory '/root/drone_racing_ws/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_6cfeb/fast' failed
+make: *** [cmTC_6cfeb/fast] Error 2
+
+File /root/drone_racing_ws/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_QWS
+  return ((int*)(&Q_WS_QWS))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the Q_WS_MAC exist failed with the following output:
+Change Dir: /root/drone_racing_ws/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_5d4ed/fast"
+/usr/bin/make -f CMakeFiles/cmTC_5d4ed.dir/build.make CMakeFiles/cmTC_5d4ed.dir/build
+make[1]: Entering directory '/root/drone_racing_ws/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_5d4ed.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++   -I/usr/include/qt4   -o CMakeFiles/cmTC_5d4ed.dir/CheckSymbolExists.cxx.o -c /root/drone_racing_ws/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/root/drone_racing_ws/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/root/drone_racing_ws/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_MAC’ was not declared in this scope
+   return ((int*)(&Q_WS_MAC))[argc];
+                   ^~~~~~~~
+/root/drone_racing_ws/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: note: suggested alternative: ‘Q_WS_X11’
+   return ((int*)(&Q_WS_MAC))[argc];
+                   ^~~~~~~~
+                   Q_WS_X11
+CMakeFiles/cmTC_5d4ed.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_5d4ed.dir/CheckSymbolExists.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_5d4ed.dir/CheckSymbolExists.cxx.o] Error 1
+make[1]: Leaving directory '/root/drone_racing_ws/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_5d4ed/fast' failed
+make: *** [cmTC_5d4ed/fast] Error 2
+
+File /root/drone_racing_ws/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_MAC
+  return ((int*)(&Q_WS_MAC))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
