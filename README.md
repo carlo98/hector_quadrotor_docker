@@ -4,12 +4,15 @@ Docker for hector quadrotor gazebo, built following tutorial of [darienmt](https
 Documentation for hector quadrotor available [here](http://wiki.ros.org/hector_quadrotor).
 
 ## Installation
-In order to build and run the docker one needs to do:
+1) Install docker.
+
+2) Clone repository:
 ```
 git clone --recurse-submodules https://github.com/carlo98/hector_quadrotor_docker.git
 ```
-Docker build (it will take some time):
+3) Docker build (it will take some time):
 ```
+cd hector_quadrotor_docker/
 sudo ./runDocker.sh build
 ```
 In order to test the installation, use tmux to launch multiple instrunctions:
