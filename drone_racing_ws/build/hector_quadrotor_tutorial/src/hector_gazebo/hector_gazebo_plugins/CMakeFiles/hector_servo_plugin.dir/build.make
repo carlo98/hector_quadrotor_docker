@@ -129,6 +129,7 @@ hector_servo_plugin_EXTERNAL_OBJECTS =
 /root/drone_racing_ws/devel/lib/libhector_servo_plugin.so: /usr/lib/x86_64-linux-gnu/libpthread.so
 /root/drone_racing_ws/devel/lib/libhector_servo_plugin.so: /usr/lib/x86_64-linux-gnu/libprotobuf.so
 /root/drone_racing_ws/devel/lib/libhector_servo_plugin.so: /usr/lib/x86_64-linux-gnu/libsdformat.so
+/root/drone_racing_ws/devel/lib/libhector_servo_plugin.so: /usr/lib/x86_64-linux-gnu/libOgreMain.so
 /root/drone_racing_ws/devel/lib/libhector_servo_plugin.so: /usr/lib/x86_64-linux-gnu/libboost_thread.so
 /root/drone_racing_ws/devel/lib/libhector_servo_plugin.so: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
 /root/drone_racing_ws/devel/lib/libhector_servo_plugin.so: /usr/lib/x86_64-linux-gnu/libboost_system.so
@@ -191,6 +192,7 @@ hector_servo_plugin_EXTERNAL_OBJECTS =
 /root/drone_racing_ws/devel/lib/libhector_servo_plugin.so: /usr/lib/x86_64-linux-gnu/libboost_iostreams.so
 /root/drone_racing_ws/devel/lib/libhector_servo_plugin.so: /usr/lib/x86_64-linux-gnu/libprotobuf.so
 /root/drone_racing_ws/devel/lib/libhector_servo_plugin.so: /usr/lib/x86_64-linux-gnu/libsdformat.so
+/root/drone_racing_ws/devel/lib/libhector_servo_plugin.so: /usr/lib/x86_64-linux-gnu/libOgreMain.so
 /root/drone_racing_ws/devel/lib/libhector_servo_plugin.so: /usr/lib/x86_64-linux-gnu/libOgreTerrain.so
 /root/drone_racing_ws/devel/lib/libhector_servo_plugin.so: /usr/lib/x86_64-linux-gnu/libOgrePaging.so
 /root/drone_racing_ws/devel/lib/libhector_servo_plugin.so: /opt/ros/melodic/lib/libtf.so
