@@ -23,7 +23,7 @@ Inside of docker:
 cd /root/drone_racing_ws
 catkin_make
 ```
-In order to test the installation, using tmux to launch multiple instrunctions:
+In order to test the installation, use tmux to launch multiple instrunctions:
 ```
 tmux
 ```
