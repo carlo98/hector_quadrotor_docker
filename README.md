@@ -7,9 +7,7 @@ Documentation for hector quadrotor available [here](http://wiki.ros.org/hector_q
 In order to build and run the docker one needs to do:
 ```
 git clone https://github.com/carlo98/hector_quadrotor_docker.git
-cd hector_quadrotor_docker
-mkdir drone_racing_ws
-cd drone_racing_ws
+cd hector_quadrotor_docker/drone_racing_ws
 mkdir hector_quadrotor_tutorial
 cd hector_quadrotor_tutorial 
 wstool init src https://raw.github.com/tu-darmstadt-ros-pkg/hector_quadrotor/kinetic-devel/tutorials.rosinstall
