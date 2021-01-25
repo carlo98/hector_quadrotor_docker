@@ -6,7 +6,7 @@ Documentation for hector quadrotor available [here](http://wiki.ros.org/hector_q
 ## Installation
 In order to build and run the docker one needs to do:
 ```
-git clone https://github.com/carlo98/hector_quadrotor_docker.git
+git clone --recurse-submodules https://github.com/carlo98/hector_quadrotor_docker.git
 ```
 Docker build (it will take some time):
 ```
