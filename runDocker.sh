@@ -2,7 +2,14 @@
 
 if [ $1 == 'build' ]
 then
-	docker build  --no-cache --tag gazebodocker .
+    docker build  --no-cache --tag gazebodocker .
+    cd drone_racing_ws
+    mkdir src
+    cd src
+    mkdir hector_quadrotor_tutorial
+    cd hector_quadrotor_tutorial 
+    wstool init src https://raw.github.com/tu-darmstadt-ros-pkg/hector_quadrotor/kinetic-devel/tutorials.rosinstall
+    cd ../../..
 fi
 
 
