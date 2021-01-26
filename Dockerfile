@@ -6,5 +6,8 @@ apt install ros-melodic-geographic-msgs ros-melodic-hector-gazebo-plugins ros-me
 apt install ros-melodic-joy ros-melodic-joystick-drivers ros-melodic-robot-state-publisher python3-pyqt4 qt4-qmake libqt4-dev ros-melodic-laser-geometry ros-melodic-tf-conversions -y && \
 apt install python-catkin-tools ros-melodic-hardware-interface ros-melodic-controller-interface -y
 
+# For tello_ros_gazebo
+RUN apt install ros-melodic-octomap-server -y
+
 STOPSIGNAL WINCH
 
